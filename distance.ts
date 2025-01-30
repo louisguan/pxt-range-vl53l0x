@@ -69,7 +69,7 @@ namespace Rangefinder {
 	//% block="initialise"
 	//% blockId=ranger_init
 	export function init(): void {
-		let r1 = readReg(0xc0)
+	let r1 = readReg(0xc0)
         let r2 = readReg(0xc1)
         let r3 = readReg(0xc2)
 
